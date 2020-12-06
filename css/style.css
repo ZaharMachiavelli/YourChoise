@@ -1,0 +1,320 @@
+
+
+body {
+    font-family: 'Sintony', sans-serif;
+    color: #5c6369;
+}
+
+   #logo {
+    width: 100%;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.hat {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_item {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.menu_item > a{
+    text-transform: uppercase;
+    color: #2c465a;
+    
+}
+
+.cta {
+    background-color: #fea100;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px;
+    display: flex;
+    cursor: pointer;
+    width: 200px;
+    border:0;
+    font-weight: 700;
+    justify-content: center;
+   
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+   
+}
+
+#book_icon {
+    background: url('../img/order.png');
+    width: 21px;
+    height: 17px;
+    display: block;
+    margin-right: 20px;
+}
+
+.offer {
+    background: url('../img/first-bg.jpg') no-repeat center top;
+}
+
+.title {
+    margin: 210px 0;
+}
+
+.title_head {
+    text-transform: uppercase;
+    font-size: 56px;
+}
+.title .title_head, #rest {
+    color:white;
+}
+
+#rest {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    margin-top:-20px;
+}
+
+#rest > span {
+    color:orange;
+}
+
+.call {
+    background-color: #edf1f3;
+    border-bottom: 1px solid #dde3e7;
+    padding: 30px 0;
+}
+
+.phone {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phonetxt{
+     background:url(../img/phone.png) no-repeat left/*по оси Х*/ center/*по оси У*/;
+     color: #14141d;
+     font-size:14px;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-family: 'Playfair Display';
+     padding-left: 70px;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.phonetxt > span {
+    color:#fea100;
+    
+
+}
+
+.phonenum {
+    
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 42px;
+    
+}
+
+.history {
+    margin-top:57px;
+}
+
+.hystorytitle {
+    font-size: 35px;
+    font-family: 'Playfair Display';
+    margin-bottom: 30px;
+}
+
+.historytxt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.historybutton {
+    width: 155px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.cta:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.foodimages {
+
+}
+
+.footdown {
+    margin-top:50px;
+}
+
+.fooditem {
+    margin-bottom: 10px;
+}
+
+.about {
+    padding: 65px 0 100px 0;
+}
+
+.special {
+    background: url(../img/third-bg.jpg) no-repeat center top;
+    
+    padding-top:80px;
+}
+
+.specialtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.eat {
+    text-align: center;
+    box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+    margin-top: 45px;
+}
+.eat > h3 {
+    font-size: 26px;
+    margin-top:45px;
+    margin-bottom: 10px;
+}
+
+.foodimg {
+    
+}
+
+.fooddesk{
+    font-size: 14px;
+    padding: 0 55px;
+}
+
+.fooddetails {
+    font-family: 'Playfair Display';
+    border-top: 1px solid #e1e1e1;
+    text-align: left;
+    color: #14141d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 19px 0;
+    
+}
+
+.delivery {
+    font-size: 13px;
+    text-transform: uppercase;
+    border-right: 1px solid #e1e1e1;
+    padding-right: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.delivery > span {
+    color: #fe4c8d;
+}
+
+.foodphone {
+    font-size: 26px;
+    margin-right:50px;
+    
+}
+
+.foodprice {
+    color:#fea100;
+    font-size: 30px;
+}
+
+.foot {
+    background: #373844;
+    color: #93989e;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 72px 0 106px 0;
+}
+
+.social {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.itemsoc {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display:block;
+
+}
+
+.socials__item_fb {
+    background: #3b5998 url('../img/fb.png') no-repeat center center;
+}
+
+.socials__item_tw {
+    background: #55acee url('../img/tw.png') no-repeat center center;
+    margin: 0 7px;
+}
+
+.socials__item_g {
+    background: #dd4b39 url('../img/g.png') no-repeat center center;
+}
+
+.line /* блок для создания полосы */ {
+    background: #52535e;
+    height: 1px;
+    margin-top: 52px;
+}
+
+.credits {
+    text-align: center;
+    margin-top: 43px;
+}
+
+.set {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "l m b" ;
+    width: 100%;
+    
+}
+
+.logohype {
+    grid-area: l;
+    
+}
+
+
+.menuhype {
+    grid-area: m;
+}
+
+.buttonhype {
+    grid-area: b;
+}
